@@ -1,0 +1,24 @@
+Adding a new user involves dealing with an account other than your own which requires superuser (aka root) privileges. The same applies to other user or group management tasks, such as deleting an account, updating accounts, and creating and removing groups.
+
+These operations are performed using the following commands:
+
+    adduser: add a user to the system.
+
+    userdel: delete a user account and related files.
+
+    addgroup: add a group to the system.
+
+    delgroup: remove a group from the system.
+
+    usermod: modify a user account.
+
+    chage: change user password expiry information.
+
+    sudo: run one or more commands as another user (typically with superuser permissions).
+
+    Relevant files: /etc/passwd (user information), /etc/shadow (encrypted passwords), /etc/group (group information) and /etc/sudoers (configuration for sudo).
+
+Superuser permissions can be gained either by changing to the root user with the su command or using sudo. The latter approach is used by default in Ubuntu and derivatives, and is preferred over the former in other distributions as well.
+
+It is also important to note that, as opposed to other Linux flavors, the user that is created when Ubuntu is first installed has superuser privileges out-of-the-box. You can verify whether sudo is installed on your machine by running
+

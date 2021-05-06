@@ -1,0 +1,38 @@
+In the section we have seen some basic commmand in linux here are some:
+1.pwd :-It stands for "Print Working Directory" which prints the name of the working directory. 
+2.mkdir :-It is used to create a new directories.
+3.head:-he head command, as the name implies, print the top N number of data of the given input. By default, it prints the first 10 lines of the specified files. If more than one file name is provided then data from each file is preceded by its file name. 
+4.cd :-It is used to change or switch the current working directory.
+5.cp :-It is used to copy files.
+6.tail :-The tail command, as the name implies, print the last N number of data of the given input. By default it prints the last 10 lines of the specified files. If more than one file name is provided then data from each file is precedes by its file name.
+7.ls :-it is used to list out all the hidden files of a directory with -an attribute.
+8.cp -r :- Image result for cp-r command in linux.Option 'r' with the copy command can be used to copy a directory including all its content from a source directory to the destination directory.
+9.ping :-Image result for ping command in linux. The Linux ping command is a simple utility used to check whether a network is available and if a host is reachable. With this command, you can test if a server is up and running. It also helps with troubleshooting various connectivity issues
+10.uname :-It prints information about the current system.
+11.mv :-This command moves, or renames, files, and directories on your file system.
+12.cat :-It is used to create single or multiple files, view contained file, concatenate files, and redirect output in terminal or files.
+13.rm :-It is used to delete files and directories.
+14.touch :-create, change and modify timestamps of a file. Basically, there are two different commands to create a file in the Linux system which is as follows: cat command: It is used to create the file with content
+15.top :-top command is used to show the Linux processes. It provides a dynamic real-time view of the running system. 
+16.man :-man command in Linux is used to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS etc.
+17.df :-is used to display the disk space used in the file system. The 'df' stands for "disk filesystem." It defines the number of blocks used, the number of blocks available, and the directory where the file system is mounted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
